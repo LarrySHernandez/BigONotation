@@ -1,15 +1,15 @@
 // Simplify the following big O expressions as much as possible:
 
-// 1. O(n + 10) A) O(1)
-// 2. O(100 * n) A) O(1)
+// 1. O(n + 10) A) O(n)
+// 2. O(100 * n) A) O(n)
 // 3. O(25) A) O(1)
-// 4. O(n^2 + n^3) A) O(n^2)
-// 5. O(n + n + n + n) A) O(n^2)
-// 6. O(1000 * log(n) + n) A) O(log(n))
-// 7. O(1000 * n * log(n) + n) A) O(log(n))
-// 8. O(2^n + n^2) A) O(log(n^2))
+// 4. O(n^2 + n^3) A) O(n^3)
+// 5. O(n + n + n + n) A) O(n)
+// 6. O(1000 * log(n) + n) A) O(n)
+// 7. O(1000 * n * log(n) + n) A) O(n log n)
+// 8. O(2^n + n^2) A) O(log(2^n))
 // 9. O(5 + 3 + 1) A) O(1)
-// 10. O(n + n^(1/2) + n^2 + n * log(n)^10) A) O(n^2 + log(n))
+// 10. O(n + n^(1/2) + n^2 + n * log(n)^10) A) O(n^2)
 
 
 
@@ -106,21 +106,21 @@
 // Answer the following questions
 
 // 1. True or false: n^2 + n is O(n^2). A) True
-// 2. True or false: n^2 * n is O(n^3). A) False
+// 2. True or false: n^2 * n is O(n^3). A) True
 // 3. True or false: n^2 + n is O(n).   A) False
-// 4. What’s the time complexity of the .indexOf array method? A) O(1)
-// 5. What’s the time complexity of the .includes array method? A) O(1)
+// 4. What’s the time complexity of the .indexOf array method? A) O(n)
+// 5. What’s the time complexity of the .includes array method? A) O(n)
 // 6. What’s the time complexity of the .forEach array method? A) O(n)
-// 7. What’s the time complexity of the .sort array method? A) O(n)
-// 8. What’s the time complexity of the .unshift array method? A) O(1)
-// 9. What’s the time complexity of the .push array method? A) O(1)
+// 7. What’s the time complexity of the .sort array method? A) O(n log n)
+// 8. What’s the time complexity of the .unshift array method? A) O(n)
+// 9. What’s the time complexity of the .push array method? A) O(n)
 // 10. What’s the time complexity of the .splice array method? A) O(n)
 // 11. What’s the time complexity of the .pop array method? A) O(1)
-// 12. What’s the time complexity of the Object.keys() function? A) O(1)
+// 12. What’s the time complexity of the Object.keys() function? A) O(n)
 
 // ### **BONUS**
 
-// 1. What’s the space complexity of the Object.keys() function? A) O(1) space
+// 1. What’s the space complexity of the Object.keys() function? A) O(n) space
 
 
 
